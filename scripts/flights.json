@@ -1,0 +1,14 @@
+[
+    {
+        "code": "ABC-123",
+        "origin": "EZE",
+        "destination": "LDN",
+        "passengers": []
+    },
+    {
+        "code": "XYZ-678",
+        "origin": "CRC",
+        "destination": "BRC",
+        "passengers": []
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "John Smith",
+        "gender": "Male",
+        "email": "john.smith@email.com"
+    },
+    {
+        "name": "Matt Simons",
+        "gender": "Male",
+        "email": "matt@email.com"
+    },
+    {
+        "name": "Ana Roberts",
+        "gender": "Female",
+        "email": "aroberts@email.com"
+    },
+    {
+        "name": "Albert Rodriguez",
+        "gender": "Male",
+        "email": "aroberts@email.com"
+    }
+]
