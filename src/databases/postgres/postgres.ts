@@ -93,7 +93,7 @@ export class PostgreStrategy extends Database {
         return PostgreStrategy._instance.public.many(
             `
             BEGIN;
-            DELETE FROM passengers_flights WHERE passenger_id = SELECT id from passengers p WHERE p.email = '${email}';
+            DELETE FROM passengers_flights WHERE passenger_id IN (SELECT id from passengers WHERE email = '${email}');
             DELETE FROM passengers WHERE email = '${email}';
             COMMIT;
             `,
